@@ -1,0 +1,18 @@
+﻿QJsonArray([
+  {
+    "meta": [
+      {
+        "deleted": false,
+        "elementId": "4:c453e3fc-13f6-4fbe-a0a5-5a52e3d854d2:141430",
+        "id": 141430,
+        "type": "node"
+      }
+    ],
+    "row": [
+      {
+        "UUID": "356e4078-2253-46aa-875c-e2a2fded02ea",
+        "text": "1. Place an oven rack in the lowest setting. Preheat the oven to 450°F. Line a cookie sheet with foil."
+      }
+    ]
+  }
+])

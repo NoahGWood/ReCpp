@@ -1,0 +1,38 @@
+QDockWidget {
+        font-size:16px;
+        margin:0;
+        padding:0;
+}
+
+QScrollArea {
+        border:1px dashed rgb(211, 215, 207);
+}
+
+QDockWidget::title{
+text-align: center;
+background-color:black;
+}
+
+QMainWindow::separator {
+    background: rgb(64, 191, 186);
+    width: 5px; /* when vertical */
+    height: 5px; /* when horizontal */
+}
+
+QMainWindow::separator:hover {
+    background: rgb(141, 234, 240);
+}
+
+QMenuBar {
+background-color:black;
+}
+
+QMenuBar::item{
+background-color:black;
+}
+
+
+QWidget{
+color:white;
+background-color:black;
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ThemeTools</class>
+ <widget class="QDockWidget" name="ThemeTools">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>135</width>
+    <height>76</height>
+   </rect>
+  </property>
+  <property name="acceptDrops">
+   <bool>true</bool>
+  </property>
+  <property name="floating">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Theme Tools</string>
+  </property>
+  <widget class="QWidget" name="dockWidgetContents">
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Color Picker</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QToolButton" name="colorPickerToolButton">
+      <property name="text">
+       <string>Color Picker</string>
+      </property>
+      <property name="icon">
+       <iconset theme="applications-graphics">
+        <normaloff>.</normaloff>.</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>32</width>
+        <height>32</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>colorPickerToolButton</sender>
+   <signal>clicked()</signal>
+   <receiver>ThemeTools</receiver>
+   <slot>launchColorPicker()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>15</x>
+     <y>64</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>100</x>
+     <y>191</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>launchColorPicker()</slot>
+ </slots>
+</ui>
